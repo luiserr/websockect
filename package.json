@@ -1,0 +1,28 @@
+{
+  "name": "websockect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiserr/websockect.git"
+  },
+  "author": "Luis Rivero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiserr/websockect/issues"
+  },
+  "homepage": "https://github.com/luiserr/websockect#readme",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "cluster": "^0.7.7",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "http": "0.0.0",
+    "websocket": "^1.0.24"
+  }
+}
